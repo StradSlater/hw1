@@ -129,7 +129,7 @@ TEST(ListInsertBack, OneItemAdd)
 	ULListStr list;
 
 	list.push_back("a");
-
+  
 	EXPECT_EQ("a", list.get(0));
 	EXPECT_EQ(false, list.empty());
 }
